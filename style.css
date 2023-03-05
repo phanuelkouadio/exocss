@@ -1,0 +1,89 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(30, 38%, 92%)
+}
+
+.card{
+    
+    height: 500px;
+    width: 600px;
+    display: flex;
+    border-radius: 1rem;
+}
+
+.card-left{
+    width: 50%;
+    background-image: url('images/image-product-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.card-right{
+    width: 50%;
+    background-color: hsl(0, 0%, 100%);
+    padding-left: 32px;
+    padding-right:32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius:1rem;
+    
+
+
+}
+.title{
+    font-family:"Montserrat";
+    color: hsl(228, 12%, 48%) ;
+}
+.para{
+    font-family: "fraunces";
+}
+.text{
+    font-family:"Montserrat";
+    
+}
+.ip{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.ip-1{
+    font-family: "fraunces";
+    color: hsl(158, 36%, 37%);
+}
+.ip-2{
+    text-decoration:line-through;
+    color: hsl(30, 38%, 92%)
+
+}
+.meta{
+    background-color: hsl(158, 36%, 37%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 10px;
+}
+.meta-1{
+    color: white;
+    margin:10px;
+}
